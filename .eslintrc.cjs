@@ -7,12 +7,14 @@ module.exports = {
   root: true,
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:sonarjs/recommended',
     'plugin:jest/recommended',
     'plugin:jest-dom/recommended',
     // Prettier must be last
     'prettier',
   ],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -35,6 +37,8 @@ module.exports = {
     'no-template-curly-in-string': ERROR,
   },
   env: {
+    browser: true,
+    es2021: true,
     jest: true,
     node: true,
   },

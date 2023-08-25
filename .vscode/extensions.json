@@ -12,6 +12,7 @@
     "unifiedjs.vscode-mdx",
     "davidanson.vscode-markdownlint",
     "arthurwang.vsc-prolog",
-    "darkriszty.markdown-table-prettify"
+    "darkriszty.markdown-table-prettify",
+    "zixuanchen.vitest-explorer"
   ]
 }
